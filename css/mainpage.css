@@ -50,7 +50,7 @@
   .navigation .links li {
     font-size: 15px;
     margin: auto;
-    padding: 10px; } }
+    padding: 10px 5px; } }
 @media (min-width: 768px) {
   .navigation .links li {
     font-size: 18px;
@@ -76,10 +76,13 @@
 @media (max-width: 767px) {
   .header .classic h1 {
     font-size: 24px;
-    padding: 0 35px; } }
+    padding: 0 25px;
+    margin-top: 30px; } }
 @media (min-width: 768px) {
   .header .classic h1 {
-    font-size: 27px; } }
+    font-size: 50px;
+    margin-top: 0;
+    padding: 0 35px; } }
 .header .classic p {
   line-height: 2; }
 @media (max-width: 767px) {
@@ -230,8 +233,16 @@
   -o-background-size: cover;
   background-size: cover;
   margin-top: 150px;
-  height: 600px;
   position: relative; }
+@media (max-width: 767px) {
+  .testimonials {
+    height: 900px; } }
+@media (min-width: 768px) {
+  .testimonials {
+    height: 7500px; } }
+@media (min-width: 992px) {
+  .testimonials {
+    height: 600px; } }
 .testimonials .over-test {
   position: absolute;
   top: 0;
@@ -282,7 +293,8 @@
 @media (max-width: 767px) {
   .projects .up .all-buttons button {
     padding: 4px 10px;
-    margin-right: 3px; } }
+    margin-right: 3px;
+    margin-bottom: 3px; } }
 @media (min-width: 768px) {
   .projects .up .all-buttons button {
     padding: 6px 15px;
